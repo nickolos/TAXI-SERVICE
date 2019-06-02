@@ -2,3 +2,6 @@ include('taxi-driver-service')
 include('orders-service')
 include('payment')
 include('history')
+include 'authorization'
+findProject(':authorization')?.name = 'taxi'
+

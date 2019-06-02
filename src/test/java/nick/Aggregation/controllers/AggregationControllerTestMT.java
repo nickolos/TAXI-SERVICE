@@ -200,7 +200,7 @@ public class AggregationControllerTestMT {
         request.setCost((float) (payment.getCost()+123.4));
         String requestJson= new ObjectMapper().writeValueAsString(request);
 
-        Mockito.when(aggregationService.to_pay(1L, request)).thenReturn(paymentResponse);
+     //   Mockito.when(aggregationService.to_pay(1L, request)).thenReturn(paymentResponse);
 
         MockHttpServletRequestBuilder builder =
                 MockMvcRequestBuilders.patch("taxi/payment/1")

@@ -45,7 +45,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compile group: 'org.freemarker', name: 'freemarker', version: '2.3.14'
     compile("org.springframework.boot:spring-boot-devtools")
-//    compile(group: 'org.springframework.boot', name: 'spring-boot-starter-security')
-//    compile(group: 'org.springframework.security', name: 'spring-security-jwt', version: '1.0.3.RELEASE')
-//    compile(group: 'org.springframework.security.oauth', name: 'spring-security-oauth2', version: '2.0.8.RELEASE')
+////    compile(group: 'org.springframework.boot', name: 'spring-boot-starter-security')
+////    compile(group: 'org.springframework.security', name: 'spring-security-jwt', version: '1.0.3.RELEASE')
+////    compile(group: 'org.springframework.security.oauth', name: 'spring-security-oauth2', version: '2.0.8.RELEASE')
 }
